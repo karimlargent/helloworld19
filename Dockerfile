@@ -4,4 +4,4 @@ From tomcat:8-jre8
 # Maintainer 
 MAINTAINER "akmouliom@outlook.com" 
 #COPY ./webapp.war /usr/local/tomcat/webapps
-RUN date
+COPY /opt/tomcat/webapps/webapp.war /opt/tomcat/webapps 
